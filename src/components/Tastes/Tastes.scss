@@ -1,0 +1,50 @@
+.tastes {
+  width: 100%;
+
+  background-color: #d4d8d9;
+
+  .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 95px 10px;
+    .wrap-items {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .item {
+        display: flex;
+        flex-direction: column;
+        max-width: 30%;
+        @media screen and (max-width: 700px) {
+          max-width: 100%;
+          align-items: center;
+          text-align: center;
+        }
+        .wrap-cicle {
+          .cicle {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #2a3b40;
+            margin-left: 5px;
+            &:first-child {
+              margin-left: 0;
+            }
+          }
+        }
+        .taste-sub {
+          font-family: Raleway, sans-serif;
+          font-weight: bold;
+          color: #2a3b40;
+        }
+      }
+      .taste-wrap {
+        font-size: 16px;
+        font-family: Raleway, sans-serif;
+        font-weight: 400;
+        line-height: 1.4;
+      }
+    }
+  }
+}

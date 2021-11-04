@@ -1,0 +1,42 @@
+.tradicional {
+  width: 100%;
+
+  background-color: #2a3b40;
+
+  .wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 95px 10px 100px 10px;
+
+    .t-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      @media screen and (max-width: 1110px) {
+        justify-content: center;
+        .t-left {
+          margin-bottom: 10px;
+        }
+      }
+      .t-left {
+        width: 540px;
+        font-family: Raleway, sans-serif;
+        color: #fff;
+        font-weight: 400;
+        .text-sub {
+          font-size: 29px;
+        }
+        .text-desc {
+          font-size: 18px;
+          line-height: 2;
+        }
+      }
+      .t-right {
+        width: 530px;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

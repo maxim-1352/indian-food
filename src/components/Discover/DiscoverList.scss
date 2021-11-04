@@ -1,0 +1,30 @@
+.discover-item {
+  display: flex;
+  align-items: center;
+  font-family: Raleway, sans-serif;
+  margin-bottom: 30px;
+  .cicle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 16px;
+  }
+  span {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

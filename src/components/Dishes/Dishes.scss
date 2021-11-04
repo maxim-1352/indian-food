@@ -1,0 +1,29 @@
+.dishes {
+  width: 100%;
+  background: url(../../img/bg2.png) no-repeat;
+  background-size: cover;
+
+  .wrapper {
+    max-width: 1095px;
+    margin: 90px auto;
+    box-sizing: border-box;
+    .dishes-bg {
+      background-color: rgba(217, 220, 221, 0.7);
+      h2 {
+        font-family: Raleway, sans-serif;
+        font-size: clamp(1.1rem, 10vw, 2.93rem);
+        color: #ad6c12;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px 0;
+        span {
+          font-family: Cookie, sans-serif;
+          font-size: clamp(1.1rem, 10vw, 4.83rem);
+          text-transform: capitalize;
+          color: #304751;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

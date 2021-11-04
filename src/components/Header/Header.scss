@@ -1,0 +1,65 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/bg1.png) no-repeat;
+  background-size: cover;
+  .read {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    vertical-align: middle;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    @media screen and (max-width: 550px) {
+      padding: 30px 18px;
+    }
+    h1 {
+      font-family: Raleway, sans-serif;
+      font-weight: 600;
+      font-size: clamp(3rem, 10vw, 4.75rem);
+      text-transform: uppercase;
+      color: #ad6c12;
+      text-align: center;
+      @media screen and (max-width: 450px) {
+        font-size: 55px;
+      }
+      span {
+        font-family: Cookie;
+        font-size: 104px;
+        font-weight: 400;
+        color: #2c3a42;
+        text-transform: capitalize;
+        @media screen and (max-width: 450px) {
+          font-size: 75px;
+        }
+      }
+    }
+    .a-center {
+      display: flex;
+      justify-content: center;
+      a {
+        font-family: Raleway, sans-serif;
+        text-align: center;
+        max-width: 256px;
+        font-size: 38px;
+        font-weight: 600;
+        color: #26363a;
+        text-decoration: none;
+        background-color: #fff;
+        text-transform: uppercase;
+        padding: 17px 20px;
+        transition: all 1s ease;
+        &:hover {
+          background-color: #dddbdb;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

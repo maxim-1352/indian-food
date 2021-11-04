@@ -1,0 +1,85 @@
+.top {
+  position: absolute;
+  top: 55px;
+  width: 100%;
+  .nav-wrap {
+    display: flex;
+    justify-content: space-between;
+
+    .logo > a {
+      font-size: 35px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      font-family: Raleway, sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      transition: all 1s ease;
+      &:hover {
+        color: #78a0b4;
+      }
+    }
+    .nav {
+      font-size: 35px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      font-family: Raleway, sans-serif;
+      font-weight: 700;
+
+      a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #fff;
+        transition: all 1s ease;
+        &:hover {
+          color: #78a0b4;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        .leftSide {
+          display: none;
+        }
+      }
+    }
+    .btn {
+      background-color: transparent;
+      border: 0;
+      color: #fff;
+      cursor: pointer;
+      position: absolute;
+      top: -5%;
+      right: 3%;
+      display: none;
+      .css-i4bv87-MuiSvgIcon-root {
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 1200px) {
+        display: block;
+      }
+    }
+    .hiddenLinks {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      right: 0%;
+      top: 110%;
+      background-color: #6b8690;
+      height: 50vh;
+      width: 100%;
+      padding-top: 50px;
+      // padding: 20px;
+      z-index: 99;
+      a {
+        margin-bottom: 20px;
+      }
+    }
+    #open {
+      display: flex;
+    }
+    #close {
+      display: none;
+    }
+  }
+}

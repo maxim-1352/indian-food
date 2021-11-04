@@ -1,0 +1,164 @@
+.booking {
+  width: 100%;
+  height: 100%;
+  background-color: #2a3b40;
+  padding: 55px 0 65px 0;
+  .wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    .wrap-form {
+      width: 100%;
+      h2 {
+        font-family: Cookie, sans-serif;
+        font-size: clamp(1.1rem, 10vw, 4.83rem);
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+        box-sizing: border-box;
+        .wrap {
+          display: flex;
+          justify-content: space-between;
+          @media screen and (max-width: 670px) {
+            flex-direction: column;
+
+            .name,
+            .date,
+            .btn-sub {
+              width: 100%;
+            }
+          }
+          .name {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            @media screen and (max-width: 670px) {
+              width: 100%;
+            }
+            label {
+              color: #fff;
+              font-family: Raleway, sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+            }
+            select {
+              margin-bottom: 25px;
+              background: transparent;
+              color: #fff;
+              border: #fff solid 2px;
+              border-radius: 5px;
+              padding: 5px 10px;
+              option {
+                color: #000;
+              }
+            }
+            input {
+              margin-bottom: 25px;
+              background: transparent;
+              color: #fff;
+              border: #fff solid 2px;
+              border-radius: 5px;
+              padding: 10px 12px;
+
+              &::-webkit-input-placeholder {
+                color: #fff;
+              }
+              &::-moz-placeholder {
+                color: #fff;
+              }
+            }
+          }
+          .date {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            @media screen and (max-width: 670px) {
+              width: 100%;
+            }
+            label {
+              color: #fff;
+              font-family: Raleway, sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+            }
+            input {
+              margin-bottom: 25px;
+              background: transparent;
+              color: #fff;
+              border: #fff solid 2px;
+              border-radius: 5px;
+              padding: 10px 12px;
+              &::-webkit-input-placeholder {
+                color: #fff;
+              }
+              &::-moz-placeholder {
+                color: #fff;
+              }
+            }
+            ::-webkit-calendar-picker-indicator {
+              filter: invert(1);
+            }
+          }
+          .time {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            @media screen and (max-width: 670px) {
+              width: 100%;
+            }
+            label {
+              color: #fff;
+              font-family: Raleway, sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+            }
+            input {
+              margin-bottom: 25px;
+              background: transparent;
+              color: #fff;
+              border: #fff solid 2px;
+              border-radius: 5px;
+              padding: 10px 12px;
+
+              &::-webkit-input-placeholder {
+                color: #fff;
+              }
+              &::-moz-placeholder {
+                color: #fff;
+              }
+            }
+            ::-webkit-calendar-picker-indicator {
+              filter: invert(1);
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .btn-sub {
+        width: 25%;
+        margin: 0 auto;
+        background: transparent;
+        color: #fff;
+        border: #fff solid 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 10px 0;
+        margin-top: 40px;
+        font-weight: 600;
+        transition: all 1s ease-in;
+        @media screen and (max-width: 670px) {
+          width: 100%;
+        }
+        &:hover {
+          color: #000;
+          border: #000 solid 1px;
+        }
+      }
+    }
+  }
+}
