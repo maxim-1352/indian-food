@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="inner">
         <div className="nav-wrap">
           <div className="logo">
-            <NavLink to="/">Brunch</NavLink>
+            <NavLink to="indian-food/">Brunch</NavLink>
           </div>
           <div className="nav">
             <div className="leftSide">
