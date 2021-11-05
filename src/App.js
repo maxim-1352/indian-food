@@ -14,7 +14,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/indian-food">
         <Navbar />
         <Switch>
           <Route path="/menu" component={Menu} />
