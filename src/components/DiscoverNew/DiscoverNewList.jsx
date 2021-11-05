@@ -20,7 +20,7 @@ const DiscoverNewList = ({ data }) => {
               </div>
               <h3>{d.name}</h3>
               <p>{d.desc}</p>
-              <Link to="indian-food/">{d.buttonText}</Link>
+              <Link to="/">{d.buttonText}</Link>
             </div>
           </div>
         </div>

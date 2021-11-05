@@ -11,7 +11,7 @@ const Header = () => {
           full website
         </h1>
         <div className="a-center">
-          <Link to="indian-food/menu">Read more</Link>
+          <Link to="/menu">Read more</Link>
         </div>
       </div>
     </div>
