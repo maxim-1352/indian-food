@@ -20,26 +20,26 @@ const Navbar = () => {
           </div>
           <div className="nav">
             <div className="leftSide">
-              <NavLink to="/">Welcome</NavLink>
+              <NavLink to="indian-food/">Welcome</NavLink>
 
-              <NavLink to="/menu">Menu</NavLink>
+              <NavLink to="indian-food/menu">Menu</NavLink>
 
-              <NavLink to="/events">Events</NavLink>
+              <NavLink to="indian-food/events">Events</NavLink>
 
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="indian-food/contact">Contact</NavLink>
             </div>
             <div className="rightSide">
               <div className="hiddenLinks" id={openLink ? "open" : "close"}>
-                <NavLink to="/" onClick={toggleNavbar}>
+                <NavLink to="indian-food/" onClick={toggleNavbar}>
                   Welcome
                 </NavLink>
-                <NavLink to="/menu" onClick={toggleNavbar}>
+                <NavLink to="indian-food/menu" onClick={toggleNavbar}>
                   Menu
                 </NavLink>
-                <NavLink to="/events" onClick={toggleNavbar}>
+                <NavLink to="indian-food/events" onClick={toggleNavbar}>
                   Events
                 </NavLink>
-                <NavLink to="/contact" onClick={toggleNavbar}>
+                <NavLink to="indian-food/contact" onClick={toggleNavbar}>
                   Contact
                 </NavLink>
               </div>

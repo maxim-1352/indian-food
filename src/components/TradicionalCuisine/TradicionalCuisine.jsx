@@ -18,10 +18,10 @@ const TradicionalCuisine = () => {
             <span className="cicle"></span>
           </div>
           <div className="cuisine-links">
-            <Link to="/meals">Meals</Link>
-            <Link to="/spices">Spices</Link>
-            <Link to="/book">Book</Link>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="indian-food/meals">Meals</Link>
+            <Link to="indian-food/spices">Spices</Link>
+            <Link to="indian-food/book">Book</Link>
+            <Link to="indian-food/gallery">Gallery</Link>
           </div>
         </div>
       </div>

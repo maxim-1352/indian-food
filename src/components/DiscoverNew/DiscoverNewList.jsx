@@ -12,7 +12,7 @@ const DiscoverNewList = ({ data }) => {
             </div>
             <div className="wrap-desc">
               <div className="category">
-                <Link to="/" className="cat">
+                <Link to="indian-food/" className="cat">
                   {d.category}
                 </Link>
                 <span className="slash">/</span>
@@ -20,7 +20,7 @@ const DiscoverNewList = ({ data }) => {
               </div>
               <h3>{d.name}</h3>
               <p>{d.desc}</p>
-              <Link to="/">{d.buttonText}</Link>
+              <Link to="indian-food/">{d.buttonText}</Link>
             </div>
           </div>
         </div>

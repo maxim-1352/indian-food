@@ -18,26 +18,26 @@ const Footer = () => {
               <div className="about-item">
                 <h3>About</h3>
 
-                <Link to="/">Team</Link>
-                <Link to="/">Join us</Link>
-                <Link to="/">Career</Link>
-                <Link to="/">About</Link>
+                <Link to="indian-food/">Team</Link>
+                <Link to="indian-food/">Join us</Link>
+                <Link to="indian-food/">Career</Link>
+                <Link to="indian-food/">About</Link>
               </div>
               <div className="about-item">
                 <h3>About</h3>
 
-                <Link to="/">Team</Link>
-                <Link to="/">Join us</Link>
-                <Link to="/">Career</Link>
-                <Link to="/">About</Link>
+                <Link to="indian-food/">Team</Link>
+                <Link to="indian-food/">Join us</Link>
+                <Link to="indian-food/">Career</Link>
+                <Link to="indian-food/">About</Link>
               </div>
               <div className="about-item">
                 <h3>About</h3>
 
-                <Link to="/">Team</Link>
-                <Link to="/">Join us</Link>
-                <Link to="/">Career</Link>
-                <Link to="/">About</Link>
+                <Link to="indian-food/">Team</Link>
+                <Link to="indian-food/">Join us</Link>
+                <Link to="indian-food/">Career</Link>
+                <Link to="indian-food/">About</Link>
               </div>
             </div>
           </div>

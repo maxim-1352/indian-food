@@ -8,19 +8,44 @@ const Social = () => {
   return (
     <div className="social">
       <div className="wrap-icons">
-        <a href="/" target="_blank" rel="noopener noreferrer" className="icon">
+        <a
+          href="indian-food/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon"
+        >
           <FacebookIcon />
         </a>
-        <a href="/" target="_blank" rel="noopener noreferrer" className="icon">
+        <a
+          href="indian-food/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon"
+        >
           <TwitterIcon />
         </a>
-        <a href="/" target="_blank" rel="noopener noreferrer" className="icon">
+        <a
+          href="indian-food/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon"
+        >
           <InstagramIcon />
         </a>
-        <a href="/" target="_blank" rel="noopener noreferrer" className="icon">
+        <a
+          href="indian-food/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon"
+        >
           <PinterestIcon />
         </a>
-        <a href="/" target="_blank" rel="noopener noreferrer" className="icon">
+        <a
+          href="indian-food/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon"
+        >
           <GoogleIcon />
         </a>
       </div>
