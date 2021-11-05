@@ -17,15 +17,15 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/menu" component={Menu} />
-          <Route path="/" exact component={Home} />
+          <Route path="indian-food/menu" component={Menu} />
+          <Route path="indian-food/" exact component={Home} />
 
-          <Route path="/events" component={Events} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/meals" component={Meals} />
-          <Route path="/spices" component={Spices} />
-          <Route path="/book" component={Book} />
-          <Route path="/gallery" component={Gallery} />
+          <Route path="indian-food/events" component={Events} />
+          <Route path="indian-food/contact" component={Contact} />
+          <Route path="indian-food/meals" component={Meals} />
+          <Route path="indian-food/spices" component={Spices} />
+          <Route path="indian-food/book" component={Book} />
+          <Route path="indian-food/gallery" component={Gallery} />
         </Switch>
         <Footer />
       </Router>
