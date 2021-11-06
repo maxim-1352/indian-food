@@ -61,6 +61,7 @@ const Booking = () => {
                   value={valueDate}
                   min="2021-01-01"
                   max="2025-12-31"
+                  className="calendar"
                   required
                   onChange={changeValueDate}
                 />
@@ -83,6 +84,7 @@ const Booking = () => {
                   id="time"
                   min="09:00"
                   max="18:00"
+                  className="clock"
                   required
                   onChange={changeValueClock}
                 />

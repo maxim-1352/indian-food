@@ -100,7 +100,15 @@
               }
             }
             ::-webkit-calendar-picker-indicator {
-              filter: invert(1);
+              color: transparent;
+              background: none;
+              z-index: 1;
+            }
+            .calendar {
+              background-image: url(../../img/i-calendar.svg);
+              background-size: 20px;
+              background-repeat: no-repeat;
+              background-position: 97% 40%;
             }
           }
           .time {
@@ -132,8 +140,15 @@
               }
             }
             ::-webkit-calendar-picker-indicator {
-              filter: invert(1);
-              font-size: 20px;
+              color: transparent;
+              background: none;
+              z-index: 1;
+            }
+            .clock {
+              background-image: url(../../img/i-clock.svg);
+              background-size: 20px;
+              background-repeat: no-repeat;
+              background-position: 97% 40%;
             }
           }
         }

@@ -6,11 +6,12 @@ import TradicionalCuisine from "../components/TradicionalCuisine/TradicionalCuis
 import Discover from "../components/Discover/Discover";
 import Picture1 from "../components/PictureSection/Picture1";
 import Booking from "../components/Booking/Booking";
-import Picture2 from "../components/PictureSection/Picture2";
 import DiscoverNew from "../components/DiscoverNew/DiscoverNew";
 import Quote from "../components/Quote/Quote";
+import Bg1 from "../img/bg4.png";
+import Bg2 from "../img/bg5.png";
 
-const Home = () => {
+const Home = ({ Bg }) => {
   return (
     <>
       <Header />
@@ -19,9 +20,9 @@ const Home = () => {
       <Dishes />
       <TradicionalCuisine />
       <Discover />
-      <Picture1 />
+      <Picture1 Bg={Bg1} />
       <Booking />
-      <Picture2 />
+      <Picture1 Bg={Bg2} />
       <DiscoverNew />
       <Quote />
     </>
