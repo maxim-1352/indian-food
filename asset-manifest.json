@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/indian-food/static/css/main.fed1e3c3.chunk.css",
-    "main.js": "/indian-food/static/js/main.9fccd90a.chunk.js",
-    "main.js.map": "/indian-food/static/js/main.9fccd90a.chunk.js.map",
+    "main.css": "/indian-food/static/css/main.c9ef358b.chunk.css",
+    "main.js": "/indian-food/static/js/main.9f23a02c.chunk.js",
+    "main.js.map": "/indian-food/static/js/main.9f23a02c.chunk.js.map",
     "runtime-main.js": "/indian-food/static/js/runtime-main.bb101d72.js",
     "runtime-main.js.map": "/indian-food/static/js/runtime-main.bb101d72.js.map",
-    "static/js/2.620490d4.chunk.js": "/indian-food/static/js/2.620490d4.chunk.js",
-    "static/js/2.620490d4.chunk.js.map": "/indian-food/static/js/2.620490d4.chunk.js.map",
+    "static/js/2.f7f3b18b.chunk.js": "/indian-food/static/js/2.f7f3b18b.chunk.js",
+    "static/js/2.f7f3b18b.chunk.js.map": "/indian-food/static/js/2.f7f3b18b.chunk.js.map",
     "index.html": "/indian-food/index.html",
-    "static/css/main.fed1e3c3.chunk.css.map": "/indian-food/static/css/main.fed1e3c3.chunk.css.map",
-    "static/js/2.620490d4.chunk.js.LICENSE.txt": "/indian-food/static/js/2.620490d4.chunk.js.LICENSE.txt",
+    "static/css/main.c9ef358b.chunk.css.map": "/indian-food/static/css/main.c9ef358b.chunk.css.map",
+    "static/js/2.f7f3b18b.chunk.js.LICENSE.txt": "/indian-food/static/js/2.f7f3b18b.chunk.js.LICENSE.txt",
     "static/media/Header.scss": "/indian-food/static/media/bg1.c9ce6a6d.png",
     "static/media/Dishes.scss": "/indian-food/static/media/bg2.099474bc.png",
     "static/media/Discover.scss": "/indian-food/static/media/bg3.1f664fda.png",
-    "static/media/Picture1.scss": "/indian-food/static/media/bg4.bce829ae.png",
-    "static/media/Picture2.scss": "/indian-food/static/media/bg5.a71bfbcb.png",
+    "static/media/bg4.bce829ae.png": "/indian-food/static/media/bg4.bce829ae.png",
+    "static/media/bg5.a71bfbcb.png": "/indian-food/static/media/bg5.a71bfbcb.png",
     "static/media/TradicionalCuisine.scss": "/indian-food/static/media/decoration2.c2a4ff8e.png",
     "static/media/discover1.db5bb669.png": "/indian-food/static/media/discover1.db5bb669.png",
     "static/media/discover2.7ee8aa94.png": "/indian-food/static/media/discover2.7ee8aa94.png",
@@ -25,12 +25,13 @@
     "static/media/dish4.ea67d2ad.png": "/indian-food/static/media/dish4.ea67d2ad.png",
     "static/media/dish5.1359cc67.png": "/indian-food/static/media/dish5.1359cc67.png",
     "static/media/dish6.ebadb6e5.png": "/indian-food/static/media/dish6.ebadb6e5.png",
+    "static/media/Booking.scss": "/indian-food/static/media/i-clock.3df3195a.svg",
     "static/media/spoone.0087830d.png": "/indian-food/static/media/spoone.0087830d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bb101d72.js",
-    "static/js/2.620490d4.chunk.js",
-    "static/css/main.fed1e3c3.chunk.css",
-    "static/js/main.9fccd90a.chunk.js"
+    "static/js/2.f7f3b18b.chunk.js",
+    "static/css/main.c9ef358b.chunk.css",
+    "static/js/main.9f23a02c.chunk.js"
   ]
 }
